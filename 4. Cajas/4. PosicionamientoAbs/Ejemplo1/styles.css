@@ -1,0 +1,79 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #f4f4f4;
+    position: relative;
+}
+
+.contenedor {
+    width: 80%;
+    height: 80vh;
+    margin: 5% auto;
+    position: relative; /*Importante: El contenedor actua como referencia para los elementos con posicion absoluta */
+    background-color: #ddd;
+    border: 2px solid #333;
+    box-sizing: border-box;
+}
+
+.arriba-izquierda{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 150px;
+    height: 100px;
+    background-color: lightblue;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.arriba-derecha{
+    position: absolute;
+    top:10px;
+    right: 10px;
+    width: 150px;
+    height: 100px;
+    background-color: lightgreen;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.abajo-izquierda{
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    width: 150px;
+    height: 100px;
+    background-color: lightcoral;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.abajo-derecha{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    width: 150px;
+    height: 100px;
+    background-color: lightyellow;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.centro{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    width: 200px;
+    height: 100px;
+    transform: translate(-50%, -50%);
+    background-color: lightgray;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+}

@@ -1,0 +1,126 @@
+.caja{
+width:100px;
+height:100px;
+text-align:center;
+line-height:100px;
+font-family: Arial, sans-serif;
+font-size:16px;
+margin:10px;
+}
+
+/* Display inline-Block */
+
+.contenedor-inline{
+
+text-align:center;
+border: 2px solid gray;
+padding:10px;
+}
+
+.caja-inline{
+  display: inline-block;
+ background-color:lightblue;
+ border: 2px solid darkblue;
+ color:darkblue;
+}
+
+/* Display grid */
+.contenedor-grid{
+ display:grid;
+ grid-template-columns: repeat(3, 150px);
+ grid-gap: 10px;
+ justify-content: center;
+ margin-top:20px;
+ border: 2px solid gray;
+ padding: 10px;
+}
+
+.caja-grid{
+background-color: lightgreen;
+border: 2px solid darkgreen;
+color: darkgreen;
+}
+
+
+/*Display Flex */ 
+.contenedor-flex{
+ display: flex;
+justify-content: space-around;
+ align-items:center;
+ height:200px;
+ border: 2px solid gray;
+ padding: 10px
+}  
+
+.caja-flex{
+background-color:lightcoral;
+border:2px solid darkred;
+color:darkred;
+}
+
+
+/*Display Table */
+
+.contenedor-table{
+ display: table;
+ width: 100%;
+ border: 2px solid gray;
+ padding: 10px;
+}
+
+.fila{
+  display: table-row;
+}
+
+.caja-table{
+  display: table-cell;
+  background-color: lightyellow;
+  border: 2px solid darkorange;
+  color:darkorange;
+
+}
+
+/* Display block */
+.contenedor-block{
+  border: 2px solid gray;
+  padding: 10px;
+}
+
+.caja-block{
+  display: block;
+  width: 100%;
+  background-color: lightpink;
+  border: 2px solid darkmagenta;
+  color: darkmagenta;
+  margin-bottom: 10px;
+}
+
+
+
+/*Display none */
+.contenedor-none{
+  border:2px solid gray;
+  padding: 10px;
+}
+
+.caja-none{
+
+  background-color: lightgray;  
+  border: 2px solid black;
+  color: black;
+
+}
+.oculto{
+  display: none;
+}
+
+.otro{
+  background-color: red;
+  display: none;
+}
+
+
+
+
+
+

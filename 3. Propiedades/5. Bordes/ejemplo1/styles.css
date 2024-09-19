@@ -1,0 +1,12 @@
+.estilo-borde{
+    width: 300px;
+    height: 200px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 5px solid #007BFF; /* Borde de 5px de ancho y color azul*/
+    border-radius: 15px; /* Borde redondeandos con un radio de 15px*/
+    outline-width: 3px; /* Ancho del outline de 3px*/
+    outline-style: dashed; /*Estilo del outline en lineas punteadas */
+    outline-color:  #FF5733; /* Color del outline en naranja*/
+    margin: 30px auto;
+}

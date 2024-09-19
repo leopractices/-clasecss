@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplos de Display</title>
+    <style>
+        /* Estilo común para las cajas */
+        .caja {
+            width: 100px;
+            height: 100px;
+            text-align: center;
+            line-height: 100px;
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            margin: 10px;
+        }
+
+        /* Ejemplo con Display Inline-Block */
+        .contenedor-inline {
+            text-align: center;
+            border: 2px solid gray;
+            padding: 10px;
+            /* white-space: nowrap; /* Evita que las cajas se apilen */
+        }
+
+        .caja-inline {
+            display: inline-block;
+            background-color: lightblue;
+            border: 2px solid darkblue;
+            color: darkblue;
+        }
+
+        /* Ejemplo con Display Grid */
+        .contenedor-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 100px);
+            grid-gap: 10px;
+            justify-content: center;
+            margin-top: 20px;
+            border: 2px solid gray;
+            padding: 10px;
+        }
+
+        .caja-grid {
+            background-color: lightgreen;
+            border: 2px solid darkgreen;
+            color: darkgreen;
+        }
+
+        /* Ejemplo con Display Flex */
+        .contenedor-flex {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 200px;
+            border: 2px solid gray;
+            padding: 10px;
+        }
+
+        .caja-flex {
+            background-color: lightcoral;
+            border: 2px solid darkred;
+            color: darkred;
+        }
+
+        /* Ejemplo con Display Table */
+        .contenedor-table {
+            display: table;
+            border-collapse: collapse;
+            width: 100%;
+            border: 2px solid gray;
+            padding: 10px;
+        }
+
+        .fila {
+            display: table-row;
+        }
+
+        .caja-table {
+            display: table-cell;
+            background-color: lightyellow;
+            border: 2px solid darkorange;
+            color: darkorange;
+        }
+
+        /* Ejemplo con Display Block */
+        .contenedor-block {
+            border: 2px solid gray;
+            padding: 10px;
+        }
+
+        .caja-block {
+            display: block;
+            width: 100%;
+            background-color: lightpink;
+            border: 2px solid darkmagenta;
+            color: darkmagenta;
+            margin-bottom: 10px;
+        }
+
+        /* Ejemplo con Display None */
+        .contenedor-none {
+            border: 2px solid gray;
+            padding: 10px;
+        }
+
+        .caja-none {
+            background-color: lightgray;
+            border: 2px solid black;
+            color: black;
+        }
+
+        .oculto {
+            display: none; /* No se mostrará en pantalla */
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Ejemplo con Display Inline-Block</h2>
+    <div class="contenedor-inline">
+        <div class="caja caja-inline">1</div>
+        <div class="caja caja-inline">2</div>
+        <div class="caja caja-inline">3</div>
+    </div>
+
+    <h2>Ejemplo con Display Grid</h2>
+    <div class="contenedor-grid">
+        <div class="caja caja-grid">A</div>
+        <div class="caja caja-grid">B</div>
+        <div class="caja caja-grid">C</div>
+        <div class="caja caja-grid">D</div>
+        <div class="caja caja-grid">E</div>
+        <div class="caja caja-grid">F</div>
+    </div>
+
+    <h2>Ejemplo con Display Flex</h2>
+    <div class="contenedor-flex">
+        <div class="caja caja-flex">1</div>
+        <div class="caja caja-flex">2</div>
+        <div class="caja caja-flex">3</div>
+    </div>
+
+    <h2>Ejemplo con Display Table</h2>
+    <div class="contenedor-table">
+        <div class="fila">
+            <div class="caja caja-table">X</div>
+            <div class="caja caja-table">Y</div>
+            <div class="caja caja-table">Z</div>
+        </div>
+    </div>
+
+    <h2>Ejemplo con Display Block</h2>
+    <div class="contenedor-block">
+        <div class="caja caja-block">Elemento 1</div>
+        <div class="caja caja-block">Elemento 2</div>
+        <div class="caja caja-block">Elemento 3</div>
+    </div>
+
+    <h2>Ejemplo con Display None</h2>
+    <div class="contenedor-none">
+        <div class="caja caja-none">Visible 1</div>
+        <div class="caja caja-none oculto">Oculto</div> <!-- Este elemento no aparecerá -->
+        <div class="caja caja-none">Visible 2</div>
+    </div>
+
+</body>
+</html>

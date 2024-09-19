@@ -1,0 +1,63 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+
+.img-filtro{
+    display: inline-block; /*Para alinear horizontalmente los elementos*/
+    margin: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+img{
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.img-filtro h3{
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.blur{
+    filter: blur(5px); /*Desenfoque */
+}
+
+.grayscale{
+    filter: grayscale(90%); /*Escala a grises */
+}
+
+.drop-shadow{
+    filter: drop-shadow(8px 8px 10px rgba(0,0,0,0.5)); /*sombra*/
+}
+
+.sepia{
+    filter: sepia(100%); /*sepia*/
+}
+
+.brightness{
+    filter: brightness(90%); /*brillo*/
+}
+.contrast{
+    filter:contrast(200%); /*contraste*/
+}
+.hue-rotate{
+    filter: hue-rotate(90deg); /*Rotacion del tono*/
+}
+.invert{
+filter: invert(100%); /*Inversion de colores*/
+} 
+.saturate{
+    filter: saturate(200%) ; /*Saturacion */
+}
+
+.opacity{
+    filter: opacity(50%); /*Opacidad*/
+}

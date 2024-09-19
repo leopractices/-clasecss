@@ -1,0 +1,15 @@
+/* Este es un comentario */
+
+body{
+background: #f5f5f5;
+}
+
+/* Atributo name */ 
+p[name="parrafo1"]{
+ color : red;
+}
+
+span[name]{
+
+color: red;
+}

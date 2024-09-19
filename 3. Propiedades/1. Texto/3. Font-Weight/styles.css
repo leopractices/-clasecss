@@ -1,0 +1,10 @@
+#titulo{
+    font-family: Georgia, serif;
+    font-size: 4rem;
+    font-weight: bold;
+}
+#descripcion{
+    font-family: cursive;
+    font-size: 20px;
+    font-weight: 100;
+}

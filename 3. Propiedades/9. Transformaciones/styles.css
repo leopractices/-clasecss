@@ -1,0 +1,42 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    height: 100vh;
+    margin:0;
+    padding: 20px;
+}
+.transformacion{
+
+    width: 200px;
+    height: 100px;
+    background-color: #3498db;
+    color:#fff;
+    font-size: 16px;
+    line-height: 100px;
+    margin:20px;
+    border-radius: 5px;
+    box-shadow: 5px 4px 8px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease; /* Transición suave */
+    display: inline-block;
+}
+/*Tranformacion Escala */
+.transformacion.escala:hover{
+transform: scale(1.2);
+}
+
+/*Tranformacion Rotacion */
+.transformacion.rotacion:hover{
+    transform: rotate(45deg);
+}
+
+/*Tranformacion Angulo */
+.transformacion.angulo:hover{
+    transform:skew(20deg, 10deg) ;
+}
+
+/*Tranformacion Translacion */
+.transformacion.translacion:hover{
+    transform:translate(-100px,0px);
+}
+

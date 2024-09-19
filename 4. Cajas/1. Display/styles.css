@@ -1,0 +1,38 @@
+body{
+background-color:#f0f0f0;
+}
+
+.caja{
+background-color:#3498db;
+ display: block;
+border-radius: 10px;
+}
+
+.uno{
+ width: 300px;
+ height: 300px;
+
+}
+
+.dos{
+ width: 300px;
+ height: 300px;
+
+
+}
+
+.tres{
+  width: 300px;
+ height: 300px;
+
+}
+
+.dos:hover{
+display: none;
+}
+
+
+RED1
+12345678
+
+

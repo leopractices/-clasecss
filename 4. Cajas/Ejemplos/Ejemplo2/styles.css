@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    background-color: #fff;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    gap: 10px;
+    padding: 4px;
+    border-radius: 25px;
+    background-color: #e8e5e480;
+    border: none;
+}
+.btn{
+    height: 40px;
+    width: 400px;
+    padding: 0 20px;
+    background-color: #e8e5e480;
+    color: black;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover{
+    background-color: #fff;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-text{
+    text-align: center;
+    width: 50%;
+    font-size:200%;
+    margin: 30px;
+}
+.container-text h1{
+    font-weight:500;
+}
+
+.container-btn button{
+    text-align: center;
+    border-radius: 20px;
+    padding: 8px;
+    border: none;
+    background-color: #e8e5e480;
+    cursor: pointer;
+    transition: backgound-color 0.3s;
+}
+
+.container-btn button:hover{
+    background-color: #fff;
+}
+.select, .container-btn .select{
+    background-color: #fff;
+}
+
+.container-img{
+    display: grid;
+    margin: 200px 20px 100px 20px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+    justify-content: center;
+    place-items: center;
+}
+
+.container-img img {
+    cursor: pointer;
+    border-radius: 20px;
+    width: 47vw;
+    object-fit: cover;
+}
+
+.container-textdown h2{
+    font-size: 38px;
+    font-weight: 500;
+}
+.container-textdown h3{
+    font-size: 33px;
+    font-weight: 500;
+    color: #7f7f7f
+}
+
+footer{
+    font-size: 15px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.redes, .rights{
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+
+.redes a{
+    text-decoration: none;
+    color:black;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+@media (max-width:480px){
+    .container-img{
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+    .container-img img{
+        width: 90vw;
+    }
+    .container-text{
+        font-size: 10px;
+        width: 80%;
+    }
+}

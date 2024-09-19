@@ -1,0 +1,11 @@
+header, section, main, footer, aside, nav, article, figure
+
+display: block;
+
+
+block: Se coloca uno sobre otro.
+inline: se posiciona de izquierda a derecha 
+table-cell: Se posiciona como tipo tabla
+none: oculta la caja
+inline-block: muestra los elementos en la misma linea con un 
+             tamaño personalizado

@@ -1,0 +1,18 @@
+#titulo{
+    font-family: Georgia, serif;
+    font-size: 4rem;
+    font-weight: bold;
+    font-style: italic;
+    text-align: end;
+}
+.descripcion{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: 100;
+    font-style: oblique;
+    text-align-last: right;
+    text-indent: 10em;
+    letter-spacing: .2rem;
+    word-spacing: 1rem;
+    text-decoration: wavy underline lime;
+}

@@ -1,0 +1,19 @@
+#caja2{
+
+    background-color: rgb(217, 59, 59);
+    width: 400px;
+    height: 100px;
+   
+    margin: 30px 200px; 
+    padding: 30px 50px;
+    padding-bottom: 40px;
+
+    
+}
+
+#caja1{
+    background-image: url("https://i.blogs.es/d5130c/wallpaper-2.png/1366_2000.webp");
+    background-position: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
