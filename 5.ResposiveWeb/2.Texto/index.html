@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Ejemplo de uso de em y rem</title>
+</head>
+<body>
+ 
+    <h1> Ejemplo de uso de em y rem</h1>
+
+    <p> Este parrafo utiliza la unidad <strong>em</strong> para definir su tamaño de fuente relativo
+    al tamaño de fuente del body </p>
+
+    <div class="relative">
+        Este texto esta dentro de un contenedor que tiene un tamaño de fuente de 1.5rem (24px).
+        <div class="nested">
+            <p>
+                Este parrafo hereda el tamaño del contenedor (24px), ya que usa 1em relativo al padre
+            </p>
+        </div>
+        <div class="rem-example">
+            Este texto utiliza la unidad <strong>rem</strong>, que es relatica al tamaño de la fuente
+            del elemento raiz(html)
+        </div>
+    </div>
+    
+</body>
+</html>

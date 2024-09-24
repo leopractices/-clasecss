@@ -1,0 +1,27 @@
+html{
+font-size: 16px;  /* El valor 1rem sera igual a 16px*/
+}
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem; /* 32px para 2rem*/
+}
+h1{
+    font-size:1.5em; /* 48px porque el body tiene 32px es decir, 1.5 * 32px = 48px*/
+    color: teal;
+}
+
+
+p{
+    font-size: 1.2em; /*38.4 px porque 1.2 *32px =38.4px*/
+    color: coral; 
+}
+
+.relative{
+    font-size: 1.5rem; /* 24px porque 1.5 *16px = 24px*/
+}
+
+.nested p{
+    font-size: 1.4em; /*33.6px porque el elemento padre tiene 24px */
+}
